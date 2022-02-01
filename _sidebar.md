@@ -1,5 +1,5 @@
 <!-- _sidebar.md -->
-* [返回目录](/README.md)
+* [返回目录](README.md)
 
 * 毕业设计
   
