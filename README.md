@@ -10,6 +10,7 @@
   * [lc236](/docBlog/算法思路汇总/lc236.md) 
   * [lc77](/docBlog/算法思路汇总/lc77.md) 
   * [lc17](/docBlog/算法思路汇总/lc17.md) 
+  * [lc39](/docBlog/算法思路汇总/lc39.md) 
   * [回溯算法规则和模板](/docBlog/算法思路汇总/回溯算法规则和模板.md) 
   
 * 八股记忆
