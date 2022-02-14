@@ -1,5 +1,5 @@
 # 这是我的纯净博客页面
-
+<img src="https://ghchart.rshah.org/xbhog" />
 
 * 网站搭建
   * [网站搭建过程](/docBlog/网站搭建过程.md)
