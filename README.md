@@ -7,6 +7,7 @@
   * [蛤蟆先生去看心理医生](/docBlog/非技术书籍阅读/蛤蟆先生去看心理医生.md)
 * 技术学习
   * [设计模式](/docBlog/技术学习/设计模式.md)
+  * [MySQL实战](/docBlog/技术学习/MySQL实战/锁问题.md)
 * 算法思路汇总
   * [lc450](/docBlog/算法思路汇总/lc450.md) 
   * [lc236](/docBlog/算法思路汇总/lc236.md) 
