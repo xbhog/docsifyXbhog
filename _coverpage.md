@@ -8,5 +8,3 @@
 
 
 [Let Go](/README.md)
-
-![](https://xbhog-img.oss-cn-hangzhou.aliyuncs.com/2022/1239346.png)
