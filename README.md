@@ -1,4 +1,4 @@
-# 这是我的纯净博客页面
+# 私人书屋-xbhog
 <img src="https://ghchart.rshah.org/xbhog" />
 
 * 网站搭建
