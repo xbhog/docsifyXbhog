@@ -9,6 +9,8 @@
   * [设计模式](/docBlog/技术学习/设计模式.md)
   * [MySQL实战](/docBlog/技术学习/MySQL实战/全局锁、表锁以及行锁.md)
   * [RocketMQ-01](/docBlog/技术学习/RocketMQ-01.md)
+  * [RocketMQ-02](/docBlog/技术学习/RocketMQ-02.md)
+  * [RocketMQ-03](/docBlog/技术学习/RocketMQ-03.md)
 * 算法思路汇总
   * [lc450](/docBlog/算法思路汇总/lc450.md) 
   * [lc236](/docBlog/算法思路汇总/lc236.md) 
