@@ -261,7 +261,8 @@ vim /etc/hosts
 ```
 
 配置完成后, 重启网卡
-
+查看网卡的名字：`systemctl list-unit-files | grep -i network` 
+> 注意本机的网卡名字，我的是：systemd-networkd
 ```bash
 systemctl restart network
 ```
@@ -322,10 +323,10 @@ source /etc/profile
 ### 3.3.7 创建消息存储路径
 
 ```bash
-mkdir /usr/local/rocketmq/store
-mkdir /usr/local/rocketmq/store/commitlog
-mkdir /usr/local/rocketmq/store/consumequeue
-mkdir /usr/local/rocketmq/store/index
+mkdir /home/ubuntu/rockedMQ/rocketmq/store
+mkdir /home/ubuntu/rockedMQ/rocketmq/store/commitlog
+mkdir /home/ubuntu/rockedMQ/rocketmq/store/consumequeue
+mkdir /home/ubuntu/rockedMQ/rocketmq/store/index
 ```
 
 ### 3.3.8 broker配置文件
