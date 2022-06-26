@@ -664,18 +664,26 @@ nohup sh mqnamesrv &
 
 * 在192.168.25.135上启动master1和slave2
 
+启动的时候需要注意启动路径：`nohup sh mqbroker -c  ./conf/2m-2s-sync/broker-a.properties &` 
+这个启动需要在rocketmq目录下执行。否则启动不了；
+查看启动命令的日志信息：
+
+```shell
+nohup sh mqbroker -c  ./conf/2m-2s-sync/broker-a.properties -n "rocketmq-nameserver1:9876;rocketmq-nameserver2:9876" >/root/logs/rocketmqlogs/broker-a.log 2>&1 &
+```
+
 master1：
 
 ```bash
-cd /usr/local/rocketmq/bin
-nohup sh mqbroker -c /usr/local/rocketmq/conf/2m-2s-syncbroker-a.properties &
+cd ../rocketmq/
+nohup sh mqbroker -c  ./conf/2m-2s-sync/broker-a.properties &
 ```
 
 slave2：
 
 ```sh
-cd /usr/local/rocketmq/bin
-nohup sh mqbroker -c /usr/local/rocketmq/conf/2m-2s-sync/broker-b-s.properties &
+cd ../rocketmq/
+nohup sh mqbroker -c  ./conf/2m-2s-sync/broker-b-s.properties &
 ```
 
 * 在192.168.25.138上启动master2和slave2
@@ -683,15 +691,15 @@ nohup sh mqbroker -c /usr/local/rocketmq/conf/2m-2s-sync/broker-b-s.properties &
 master2
 
 ```sh
-cd /usr/local/rocketmq/bin
-nohup sh mqbroker -c /usr/local/rocketmq/conf/2m-2s-sync/broker-b.properties &
+cd ../rocketmq/
+nohup sh mqbroker -c  ./conf/2m-2s-sync/broker-b.properties &
 ```
 
 slave1
 
 ```sh
-cd /usr/local/rocketmq/bin
-nohup sh mqbroker -c /usr/local/rocketmq/conf/2m-2s-sync/broker-a-s.properties &
+cd ../rocketmq/
+nohup sh mqbroker -c  ./conf/2m-2s-sync/broker-a-s.properties &
 ```
 
 ### 3.3.11 查看进程状态
