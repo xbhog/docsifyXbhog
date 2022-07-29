@@ -1,4 +1,4 @@
-# 私人书屋-xbhog
+# Internet Trash Can
 <img src="https://ghchart.rshah.org/xbhog" />
 
 * 网站搭建
@@ -11,16 +11,26 @@
   * [RocketMQ-01](/docBlog/技术学习/RocketMQ-01.md)
   * [RocketMQ-02](/docBlog/技术学习/RocketMQ-02.md)
   * [RocketMQ-03](/docBlog/技术学习/RocketMQ-03.md)
-* 算法思路汇总
-  * [lc450](/docBlog/算法思路汇总/lc450.md) 
-  * [lc236](/docBlog/算法思路汇总/lc236.md) 
-  * [lc77](/docBlog/算法思路汇总/lc77.md) 
-  * [lc17](/docBlog/算法思路汇总/lc17.md) 
-  * [lc39](/docBlog/算法思路汇总/lc39.md) 
-  * [lc236](/docBlog/算法思路汇总/lc236.md) 
-  * [lc450](/docBlog/算法思路汇总/lc450.md) 
-  * [回溯常用问题](/docBlog/算法思路汇总/回溯常用问题.md) 
-  * [回溯算法规则和模板](/docBlog/算法思路汇总/回溯算法规则和模板.md) 
+
+[//]: # (* 算法思路汇总)
+
+[//]: # (  * [lc450]&#40;/docBlog/算法思路汇总/lc450.md&#41; )
+
+[//]: # (  * [lc236]&#40;/docBlog/算法思路汇总/lc236.md&#41; )
+
+[//]: # (  * [lc77]&#40;/docBlog/算法思路汇总/lc77.md&#41; )
+
+[//]: # (  * [lc17]&#40;/docBlog/算法思路汇总/lc17.md&#41; )
+
+[//]: # (  * [lc39]&#40;/docBlog/算法思路汇总/lc39.md&#41; )
+
+[//]: # (  * [lc236]&#40;/docBlog/算法思路汇总/lc236.md&#41; )
+
+[//]: # (  * [lc450]&#40;/docBlog/算法思路汇总/lc450.md&#41; )
+
+[//]: # (  * [回溯常用问题]&#40;/docBlog/算法思路汇总/回溯常用问题.md&#41; )
+
+[//]: # (  * [回溯算法规则和模板]&#40;/docBlog/算法思路汇总/回溯算法规则和模板.md&#41; )
   
 <!-- * 八股记忆
 
