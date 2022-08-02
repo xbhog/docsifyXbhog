@@ -193,7 +193,7 @@ public class Consumer implements RocketMQListener<String> {
 mvn install -Dmaven.skip.test=true
 ```
 
-![](../%E6%96%87%E6%A1%A3/img/dubbo.png)
+![](/img/dubbo.png)
 
 ### 2.3.1 搭建Zookeeper集群
 
@@ -253,7 +253,7 @@ server.3=192.168.25.140:2883:3883
 
 启动集群就是分别启动每个实例。
 
-![](../%E6%96%87%E6%A1%A3/img/zk.png)
+![](./img/zk.png)
 
 
 
