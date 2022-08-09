@@ -2277,7 +2277,7 @@ handleHA(result, putMessageResult, msg);
 
 ### 2.4.3 存储文件
 
-![](../%E6%96%87%E6%A1%A3/img/%E5%AD%98%E5%82%A8%E6%96%87%E4%BB%B6.png)
+![](/img/%E5%AD%98%E5%82%A8%E6%96%87%E4%BB%B6.png)
 
 - commitLog：消息存储目录
 - config：运行期间一些配置信息
