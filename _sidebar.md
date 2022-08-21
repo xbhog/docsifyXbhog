@@ -17,6 +17,7 @@
   * [RocketMQ-01](/docBlog/技术学习/RocketMQ-01.md)
   * [RocketMQ-02](/docBlog/技术学习/RocketMQ-02.md)
   * [RocketMQ-03](/docBlog/技术学习/RocketMQ-03.md)
+  * [Redis实战](/docBlog/技术学习/Redis实战篇.md)
 
 [//]: # (* 算法思路汇总)
 
