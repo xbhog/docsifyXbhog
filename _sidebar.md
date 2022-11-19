@@ -18,6 +18,10 @@
   * [RocketMQ-02](/docBlog/技术学习/RocketMQ-02.md)
   * [RocketMQ-03](/docBlog/技术学习/RocketMQ-03.md)
   * [Redis实战](/docBlog/技术学习/Redis实战篇.md)
+  * [MySQL架构篇](/docBlog/MySQL高级篇/MySQL架构篇.md)
+  * [MySQL索引及调优篇](/docBlog/MySQL高级篇/MySQL索引及调优篇.md)
+  * [MySQL事物篇](/docBlog/MySQL高级篇/MySQL事物篇.md)
+  * [MySQL日志与备份篇](/docBlog/MySQL高级篇/MySQL日志与备份篇.md)
 
 * 算法思路汇总
 
