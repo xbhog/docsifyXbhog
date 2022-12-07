@@ -1507,7 +1507,7 @@ CALL insert_stu(1000000);
 
 #### 1. 字段的数值有唯一性的限制
 
-<img src="MySQL索引及调优篇.assets/image-20220623154615702.png" alt="image-20220623154615702" style="float:left;" />
+<img src="./MySQL索引及调优篇.assets/image-20220623154615702.png" alt="image-20220623154615702" style="float:left;" />
 
 > 业务上具有唯一特性的字段，即使是组合字段，也必须建成唯一索引。（来源：Alibaba） 说明：不要以为唯一索引影响了 insert 速度，这个速度损耗可以忽略，但提高查找速度是明显的。
 
@@ -1837,15 +1837,15 @@ INDEX idx_c1 (col1)
 
 整个流程划分成了 `观察（Show status）` 和 `行动（Action）` 两个部分。字母 S 的部分代表观察（会使 用相应的分析工具），字母 A 代表的部分是行动（对应分析可以采取的行动）。
 
-![image-20220627162248635](MySQL索引及调优篇.assets/image-20220627162248635.png)
+![image-20220627162248635](https://xbhog-img.oss-cn-hangzhou.aliyuncs.com/2022/image-20220627162248635.png)
 
-![image-20220627162345815](MySQL索引及调优篇.assets/image-20220627162345815.png)
+![image-20220627162345815](https://xbhog-img.oss-cn-hangzhou.aliyuncs.com/2022/image-20220627162345815.png)
 
 我们可以通过观察了解数据库整体的运行状态，通过性能分析工具可以让我们了解执行慢的SQL都有哪些，查看具体的SQL执行计划，甚至是SQL执行中的每一步的成本代价，这样才能定位问题所在，找到了问题，再采取相应的行动。
 
 **详细解释一下这张图：**
 
-<img src="MySQL索引及调优篇.assets/image-20220627164046438.png" alt="image-20220627164046438" style="float:left;" />
+<img src="https://xbhog-img.oss-cn-hangzhou.aliyuncs.com/2022/image-20220627164046438.png" alt="image-20220627164046438" style="float:left;" />
 
 <img src="MySQL索引及调优篇.assets/image-20220627164114562.png" alt="image-20220627164114562" style="float:left;" />
 
@@ -4152,6 +4152,7 @@ CREATE TABLE person_info(
 
   ```mysql
   EXPLAIN SELECT SQL_NO_CACHE id, stuno, NAME FROM student WHERE stuno+1 = 900001;
+  ```
 
 运行结果：
 
