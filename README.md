@@ -1,4 +1,4 @@
-# Internet Trash Can
+# Personal lightweight archiving system
 <img src="https://ghchart.rshah.org/xbhog" />
 
 * 网站搭建教程
