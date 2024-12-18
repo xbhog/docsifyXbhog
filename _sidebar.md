@@ -4,7 +4,7 @@
   * JAVA
     * [设计模式](/docBlog/技术学习/设计模式.md)
   * SpringBoot
-    * [场景](./docBlog/技术学习/事务回滚的解决方案.md)
+    * [起帐事务解决方案](./docBlog/技术学习/事务回滚的解决方案.md)
 
 * 源码
   * MyBatis源码
