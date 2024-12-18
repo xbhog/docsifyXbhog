@@ -4,6 +4,7 @@
   * JAVA
     * [设计模式](/docBlog/技术学习/设计模式.md)
   * SpringBoot
+    * [场景](./docBlog/技术学习/事务回滚的解决方案.md)
 
 * 源码
   * MyBatis源码
@@ -12,6 +13,4 @@
     * [【简写Mybatis】04-Mysql数据源的解析、创建和使用](/docBlog/技术学习/MyBatis源码/【简写Mybatis】04-Mysql数据源的解析、创建和使用.md)
 * SpringBoot Starter组件开发
     * [全局加解密SpringStarter处理流程](/docBlog/技术学习/SpringBoot组件开发/全局加解密SpringStarter处理流程.md)
-* 阅读
-  * [蛤蟆先生去看心理医生](/docBlog/非技术书籍阅读/蛤蟆先生去看心理医生.md)
-    
+
